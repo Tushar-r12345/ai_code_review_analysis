@@ -1,0 +1,7 @@
+fastapi[all]
+celery[redis]
+requests
+uvicorn
+redis
+pydantic
+groq

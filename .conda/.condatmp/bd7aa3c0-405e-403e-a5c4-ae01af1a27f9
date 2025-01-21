@@ -1,0 +1,13 @@
+prefix=c:/Users/paltu/code_review_final_agent/.conda/Library
+exec_prefix=c:/Users/paltu/code_review_final_agent/.conda/Library
+libdir=c:/Users/paltu/code_review_final_agent/.conda/Library/lib
+sharedlibdir=c:/Users/paltu/code_review_final_agent/.conda/Library/lib
+includedir=c:/Users/paltu/code_review_final_agent/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
