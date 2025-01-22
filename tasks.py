@@ -7,7 +7,7 @@ from fastapi import FastAPI, HTTPException, BackgroundTasks
 from pydantic import BaseModel
 from models import CodeAnalysisRequest
 import logging
-# Groq client setup (replace with your API key)
+
 groq_client = Groq(api_key="Please add your GROQ Api key here")
 
 def fetch_pr_details(repo_url: str, pr_number: int, token: Optional[str] = None):
