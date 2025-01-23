@@ -44,13 +44,6 @@ This project provides a framework for asynchronously analyzing pull requests and
     celery -A your_app_name worker -l info -b redis://localhost:6379/0
     ```
 
-*   Set environment variables or configure a configuration file for sensitive information like API keys and tokens (e.g., GitHub token, Groq API key). Example setting environment variables:
-
-    ```bash
-    export GITHUB_TOKEN="your_github_token"
-    export GROQ_API_KEY="your_groq_api_key"
-    ```
-
 **Running the Application:**
 
 Open **two** separate terminal windows:
