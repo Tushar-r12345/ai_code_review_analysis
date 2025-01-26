@@ -35,7 +35,6 @@ This project provides a framework for asynchronously analyzing pull requests and
     ```bash
     pip install -r requirements.txt
     ```
-    ```
 
 **Running the Application:**
 
