@@ -35,13 +35,6 @@ This project provides a framework for asynchronously analyzing pull requests and
     ```bash
     pip install -r requirements.txt
     ```
-
-**Configuration:**
-
-*   Configure your Celery broker (e.g., RabbitMQ, Redis) according to Celery documentation. Example using Redis:
-
-    ```
-    celery -A your_app_name worker -l info -b redis://localhost:6379/0
     ```
 
 **Running the Application:**
